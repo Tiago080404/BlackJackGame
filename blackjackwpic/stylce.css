@@ -1,0 +1,26 @@
+body {
+  background-image: url("bjacktable.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px; /* Set the height of the body to the full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+#content {
+  text-align: center; /* Center align the content */
+}
+
+#players-hand {
+  text-align: center;
+  margin: 5px;
+}
+
+#player-money {
+  transform: translateY(-300px);
+  transform: translateX(-600px);
+  color: black;
+}

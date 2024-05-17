@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylce.css" />
+  </head>
+  <body>
+    <div id="content">
+      <p id="player-money"></p>
+      <div id="game-container">
+        <input id="user-bet" type="number" min="2"></input>
+        <p id="check-win"></p>
+        <p id="dealers-hand"></p>
+        <p id="players-hand"></p>
+        <button class="buttons" id="play-button" onclick="PlayGame()">Play</button>
+        <button class="buttons" id="hold-button" onclick="Hold()">Hold</button>
+        <button class="buttons" id="hit-button" onclick="Hit()">Hit</button>
+        <button class="buttons" id="restart-button" onclick="restartGame()">Restart</button>
+        <button class="buttons" id="get-bet" onclick="userBet()">Bet</button>
+        <button class="buttons" id="split-button" onclick="Split()">Split</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
